@@ -28,7 +28,7 @@ def getAccurancy(dataX, dataY, res):
 def predictOneVsAll(dataX, dataY):
     f = open("data/logistic_onevsall_model", "r")
     res_bin = pickle.load(f)
-    res = pickle.loads(res_bin)  # res 就是我训练得到的模型
+    res = pickle.loads(res_bin) 
     print "fmin_cg得到的模型,", res
     acc = getAccurancy(dataX, dataY, res)
     print "fmin_cg准确度为:", acc
@@ -37,7 +37,7 @@ def predictOneVsAll(dataX, dataY):
 def predictOneVsAll_fminbfgs(dataX, dataY):
     f = open("data/logistic_onevsall_model_fminbfgs", "r")
     res_bin = pickle.load(f)
-    res = pickle.loads(res_bin)  # res 就是我训练得到的模型
+    res = pickle.loads(res_bin)
     acc = getAccurancy(dataX, dataY, res)
     print "fmin_bfgs准确度为:", acc
 

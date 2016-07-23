@@ -12,8 +12,3 @@ C站NG课程代码的python版本：
    9.anomaly detection
    10.参数调优
    11.协同过滤
- 
-主题模型：
-   1.基于EM PLSA
-   2.基于Gibbs采样LDA
-最大熵

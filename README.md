@@ -1,7 +1,7 @@
 # Machine-Learning
 C站NG课程代码的python版本：
 包括以下算法：
-   1、线性回归\n
+   1、线性回归
    2.逻辑回归
    3.逻辑回归onevsall
    4.svm

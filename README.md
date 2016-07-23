@@ -1,5 +1,5 @@
 # Machine-Learning
-   C站NG课程代码的python版本： 
+   C站NG课程代码的python版本：  
 包括以下算法：  
    1、线性回归  
    2.逻辑回归  

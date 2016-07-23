@@ -60,7 +60,6 @@ class AnomalyDetection(object):
                 tn = count_nonzero((self.res == self.yval) & (self.yval == 0))
                 fp = resAnomalyNum - tp
                 fn = resNormalNum - tn
-                #self.F1_score    写到这里了
                 precision = tp * 1.0 / resAnomalyNum
                 recall = tp * 1.0 / self.yvalAnomaly
                 self.F1_score = 2 * precision * recall / (precision + recall)

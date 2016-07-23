@@ -7,7 +7,6 @@ from numpy import shape, mean, dot, sum, asarray, concatenate, reshape, zeros, l
 from scipy.optimize import fmin_cg, fmin_bfgs
 import datetime
 
-
 class CollaborateFilter(object):
     def __init__(self, path):
         self.data = sio.loadmat(path)

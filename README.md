@@ -4,12 +4,12 @@
    1、线性回归  
    2、逻辑回归  
    3、逻辑回归onevsall  
-   4、svm  
+   4、SVM  
    5、基于svm的spam邮件过滤（svm的训练以及测试是混写在一起的)  
-   6、bp-nn  
+   6、BP-NN  
    7、kmeans  
-   8、pca  
-   9、anomaly detection  
+   8、PCA  
+   9、Anomaly Detection  
    10、参数调优  
    11、协同过滤  
    12、GibbsLDA  

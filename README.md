@@ -11,7 +11,7 @@
    8、pca  
    9、anomaly detection  
    10、参数调优  
-   11、协同过滤
-   12、GibbsLDA
-   13、EM PLSA
+   11、协同过滤  
+   12、GibbsLDA  
+   13、EM PLSA  
    14、ME
